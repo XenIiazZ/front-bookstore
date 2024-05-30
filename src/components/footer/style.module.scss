@@ -1,0 +1,14 @@
+.footer {
+  margin-bottom: -80px;
+  padding: 20px;
+  background: rgba(55, 123, 123, 0.78);
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  align-items: center;
+  color: var(--color-white);
+  gap: 40px;
+}

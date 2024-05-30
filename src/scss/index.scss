@@ -1,0 +1,58 @@
+@import "./fonts";
+@import "./reset";
+@import "./vars";
+
+* {
+  box-sizing: inherit;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Raleway-bd", sans-serif;
+  background: var(--color-white);
+  color: var(--color-black);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: 75px;
+}
+
+.container {
+  max-width: 1780px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: inherit;
+  line-height: 120%;
+}
+
+.App {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
